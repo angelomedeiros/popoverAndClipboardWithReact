@@ -1,0 +1,58 @@
+body {
+  background-color: #2948af;
+}
+
+button {
+  background: #b4130d;
+  border: 0;
+  color: #fff;
+  display: block;
+  width: 100%;
+  margin: 0 auto 20px;
+  border-radius: 4px;
+  padding: 0;
+  line-height: 40px;
+}
+
+.popover {
+  background: #fff;
+  border-radius: 4px;
+  width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  position: absolute;
+  top: 100%;
+  left: -50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+}
+
+.popover-container {
+  width: 200px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.address {
+  font-family: monospace;
+  border: 0.5px solid #e6e6e6;
+  border-radius: 3px 0 0 3px;
+  height: 20px;
+  font-size: 8px;
+  padding: 0 8px;
+}
+
+.clip {
+  height: 20px;
+  display: flex;
+  font-size: 10px;
+  padding: 0 4px;
+  color: black;
+  background: whitesmoke;
+  border: 0.5px solid #e6e6e6;
+  border-radius: 0 3px 3px 0;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
